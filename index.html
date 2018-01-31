@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX Sample</title>
+</head>
+<body>
+    
+    <section>
+        <h1>XHR GET HTML Document</h1>
+    
+        <div id="placeholder"></div>
+        
+        <button id="get-server-data">Get Server Data</button>
+        <button id="fetch-server-data">Fetch Server Data</button>
+    </section>
+    
+    <section>
+        <h1>XHR GET JSON Data</h1>
+        
+        <h2>Client info:</h2>
+        <p>Client name: <span id="client-name"></span></p>
+        <p>Client age: <span id="client-age"></span></p>
+        
+        <button id="get-server-json">Get Server JSON</button>
+        <button id="fetch-server-json">Fetch Server JSON</button>
+    </section>
+    
+    
+    <section>
+        <h1>Contact us</h1>
+        <form>
+            <label>Your name:
+                <input type="text" id="visitor-name">
+            </label>
+            <br>
+            <label>Your email:
+                <input type="email" id="visitor-email">
+            </label>
+            <br>
+            <input type="submit" id="submit-contact-form">
+        </form>
+    </section>
+    
+    <footer>
+        <div id="timestamp"></div>
+    </footer>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/index-form.js"></script>  
+    <script src="js/index-get-html.js"></script>
+    <script src="js/index-fetch-html.js"></script>
+    <script src="js/index-get-json.js"></script>
+    <script src="js/index-fetch-json.js"></script>
+</body>
+</html>
