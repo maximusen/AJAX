@@ -2,7 +2,7 @@ $('#submit-contact-form').click(function(ev){
     if ($('form')[0].checkValidity()) {
         ev.preventDefault();
         $.ajax({
-            url: "https://formspree.io/simon.ms777@gmail.com", 
+            url: "https://formspree.io/YOUR_EMAIL_HERE", 
             method: "POST",
             data: {
                 visitorName: $('#visitor-name').val(),
